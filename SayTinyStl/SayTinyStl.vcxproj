@@ -127,7 +127,29 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="typer_traits.h" />
+    <ClInclude Include="algo.h" />
+    <ClInclude Include="algobase.h" />
+    <ClInclude Include="algorithm.h" />
+    <ClInclude Include="allocator.h" />
+    <ClInclude Include="construct.h" />
+    <ClInclude Include="exceptdef.h" />
+    <ClInclude Include="functional.h" />
+    <ClInclude Include="heap_algo.h" />
+    <ClInclude Include="iterator.h" />
+    <ClInclude Include="memory.h" />
+    <ClInclude Include="test\algorithm_performance_test.h" />
+    <ClInclude Include="test\algorithm_test.h" />
+    <ClInclude Include="test\Lib\color.h" />
+    <ClInclude Include="test\Lib\platform.h" />
+    <ClInclude Include="test\test.h" />
+    <ClInclude Include="test\vector_test.h" />
+    <ClInclude Include="type_traits.h" />
+    <ClInclude Include="uninitialized.h" />
+    <ClInclude Include="util.h" />
+    <ClInclude Include="vector.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="test\test.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
