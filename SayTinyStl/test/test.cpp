@@ -12,6 +12,7 @@
 #include "algorithm_performance_test.h"
 #include "algorithm_test.h"
 #include "../test/vector_test.h"
+#include "deque_test.h"
 
 
 int main()
@@ -25,6 +26,7 @@ int main()
 
 	//using namespace vector_test;
 	vector_say_test::vector_test();
+	deque_test::deque_test();
 
 
 #if defined(_MSC_VER) && defined(_DEBUG)
