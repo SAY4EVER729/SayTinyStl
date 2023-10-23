@@ -7,6 +7,6 @@ Windows 10
 Linux  
 macOS（还未测试）
 * **编译器**  
-g++ 5.4 或以上  
+g++ 5.4 或以上。    
 # 测试  
-在[test]([https://pages.github.com/](https://github.com/SAY4EVER729/SayTinyStl/tree/master/SayTinyStl/test)https://github.com/SAY4EVER729/SayTinyStl/tree/master/SayTinyStl/test)中  
+在[test](https://github.com/SAY4EVER729/SayTinyStl/tree/master/SayTinyStl/test)中。  
