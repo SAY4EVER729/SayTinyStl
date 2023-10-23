@@ -7,6 +7,17 @@ Windows 10
 Linux  
 macOS（还未测试）
 * **编译器**  
-g++ 5.4 或以上。    
+g++ 5.4 或以上。
+# 运行  
+1. 克隆仓库  
+`$ git clone git@github.com::SAY4EVER729/SayTinyStl.git`  
+`$ cd SayTinySTL`
+2. 构建并运行
+```
+$ mkdir build && cd build
+$ cmake ..
+$ make
+$ cd ../bin && ./stltest
+```
 # 测试  
 在[test](https://github.com/SAY4EVER729/SayTinyStl/tree/master/SayTinyStl/test)中。  
